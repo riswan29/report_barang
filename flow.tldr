@@ -1,0 +1,192 @@
+{
+  "tldrawFileFormatVersion": 1,
+  "schema": {
+    "schemaVersion": 1,
+    "storeVersion": 4,
+    "recordVersions": {
+      "asset": {
+        "version": 0,
+        "subTypeKey": "type",
+        "subTypeVersions": {
+          "image": 2,
+          "video": 2,
+          "bookmark": 0
+        }
+      },
+      "camera": {
+        "version": 0
+      },
+      "document": {
+        "version": 1
+      },
+      "instance": {
+        "version": 12
+      },
+      "instance_page_state": {
+        "version": 2
+      },
+      "page": {
+        "version": 0
+      },
+      "shape": {
+        "version": 1,
+        "subTypeKey": "type",
+        "subTypeVersions": {
+          "group": 0,
+          "bookmark": 1,
+          "embed": 1,
+          "image": 2,
+          "text": 1,
+          "video": 1,
+          "arrow": 1,
+          "draw": 1,
+          "frame": 0,
+          "geo": 6,
+          "line": 0,
+          "note": 4,
+          "highlight": 0
+        }
+      },
+      "instance_presence": {
+        "version": 2
+      },
+      "pointer": {
+        "version": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "gridSize": 10,
+      "name": "",
+      "id": "document:document",
+      "typeName": "document"
+    },
+    {
+      "id": "pointer:pointer",
+      "typeName": "pointer",
+      "x": 337.45092938750884,
+      "y": 341,
+      "lastActivityTimestamp": 1686796658822
+    },
+    {
+      "id": "page:Ttpkq4mRirPUcf2faQSpJ",
+      "name": "Page 1",
+      "index": "a1",
+      "typeName": "page"
+    },
+    {
+      "followingUserId": null,
+      "propsForNextShape": {
+        "opacity": "1",
+        "color": "black",
+        "labelColor": "black",
+        "dash": "draw",
+        "fill": "none",
+        "size": "m",
+        "icon": "file",
+        "font": "draw",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "geo": "rectangle",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "spline": "line"
+      },
+      "brush": null,
+      "scribble": null,
+      "cursor": {
+        "type": "default",
+        "color": "black",
+        "rotation": 0
+      },
+      "isFocusMode": false,
+      "exportBackground": true,
+      "isDebugMode": false,
+      "isToolLocked": false,
+      "screenBounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1419,
+        "h": 683
+      },
+      "zoomBrush": null,
+      "isGridMode": false,
+      "isPenMode": false,
+      "id": "instance:instance",
+      "currentPageId": "page:Ttpkq4mRirPUcf2faQSpJ",
+      "typeName": "instance"
+    },
+    {
+      "editingId": "shape:48zQ2BCBEqYfTtVCj1Sid",
+      "croppingId": null,
+      "selectedIds": [
+        "shape:48zQ2BCBEqYfTtVCj1Sid"
+      ],
+      "hoveredId": null,
+      "erasingIds": [],
+      "hintingIds": [],
+      "focusLayerId": null,
+      "id": "instance_page_state:page:Ttpkq4mRirPUcf2faQSpJ",
+      "pageId": "page:Ttpkq4mRirPUcf2faQSpJ",
+      "typeName": "instance_page_state"
+    },
+    {
+      "x": 108.04907061249116,
+      "y": -9.5,
+      "z": 2,
+      "id": "camera:page:Ttpkq4mRirPUcf2faQSpJ",
+      "typeName": "camera"
+    },
+    {
+      "x": 73,
+      "y": 89,
+      "rotation": 0,
+      "isLocked": false,
+      "id": "shape:EqvYjBK20l7L37VRKOBLL",
+      "type": "geo",
+      "props": {
+        "w": 342,
+        "h": 134,
+        "geo": "rectangle",
+        "color": "black",
+        "labelColor": "black",
+        "fill": "none",
+        "dash": "draw",
+        "size": "m",
+        "opacity": "1",
+        "font": "draw",
+        "text": "",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:Ttpkq4mRirPUcf2faQSpJ",
+      "index": "a1",
+      "typeName": "shape"
+    },
+    {
+      "x": 78.80249188750884,
+      "y": 130.609375,
+      "rotation": 0,
+      "isLocked": false,
+      "id": "shape:48zQ2BCBEqYfTtVCj1Sid",
+      "type": "text",
+      "props": {
+        "opacity": "1",
+        "color": "black",
+        "size": "m",
+        "w": 239.296875,
+        "text": "git branch -M main",
+        "font": "draw",
+        "align": "middle",
+        "autoSize": true,
+        "scale": 1
+      },
+      "parentId": "page:Ttpkq4mRirPUcf2faQSpJ",
+      "index": "a2",
+      "typeName": "shape"
+    }
+  ]
+}

@@ -13,9 +13,9 @@ class Report(models.Model):
     j_pelapor = models.CharField(max_length=100)
     dep_pelapor = models.CharField(max_length=100)
     n_barang = models.CharField(max_length=100)
-    keterangan = models.TextField()
+    keterangan = models.TextField(blank=True)
     status = models.CharField(max_length=100, choices=STATUS_CHOICES)
-    keterangan_petugas = models.TextField()
+    keterangan_petugas = models.TextField(blank=True)
     tgl_lapor = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):

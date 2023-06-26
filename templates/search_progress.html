@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Progress</title>
+</head>
+<body>
+    <form method="GET" action="{% url 'search_progress' %}">
+        <label for="search">Cek Progress</label>
+        <input type="search" name="search" value="{{ search_query }}">
+        <button type="submit">Cari</button>
+    </form>
+
+    {% if reports %}
+    <h2>Search Results:</h2>
+    <ul>
+        {% for report in reports %}
+            <li>{{ report.id }} - {{ report.n_barang }}</li>
+        {% endfor %}
+    </ul>
+{% elif search_query %}
+    <p>Data not found.</p>
+{% endif %}
+
+</body>
+</html>
